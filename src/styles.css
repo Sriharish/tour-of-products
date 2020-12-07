@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+/* Application-wide Styles */
+body {
+  margin: 0;
+}
+
+.content {
+  margin: 4em 2em 0 2em;
+}
+

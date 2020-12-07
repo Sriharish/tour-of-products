@@ -1,0 +1,6 @@
+<h3>Top Products</h3>
+<div class="row">
+    <div class="column dashboard-item-container" *ngFor="let product of products">
+        <a routerLink="/details/{{product.id}}" class="button button-primary dashboard-item"><h4>{{product.name}}</h4></a>
+    </div>
+</div>

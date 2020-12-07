@@ -1,0 +1,8 @@
+<h2>My Products</h2>
+<div class="row"  *ngFor="let product of products">
+	<div class="column">
+		<a class="button button-primary" routerLink="/details/{{product.id}}">
+			{{product.id}} {{product.name}}
+		</a>
+	</div>
+</div>
